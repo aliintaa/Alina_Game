@@ -15,19 +15,13 @@ namespace Alina_Game
             game.Start();
         }
     }
-    public class Game
-    {
-        private readonly string[] dungeonMap = new string[10];
-        private Player player;
-
-     
-
-        public class Gamee
+ 
+        public class Game
         {
             private readonly string[] dungeonMap = new string[10];
             private Player player;
 
-            public Gamee()
+            public Game()
             {
                 InitializeDungeonMap();
                 player = new Player();
@@ -339,7 +333,7 @@ namespace Alina_Game
             }
         }
     }
-}
+
 
 
 
